@@ -1,4 +1,3 @@
 #!/usr/bin/python3
 def max_integer(my_list=[]):
-    max_num = max(my_list)
-    return max_num
+        return (min(my_list, key=lambda i: -i)) if my_list else None
