@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+""" this module defines a class Square"""
+
+
 class Square:
     """
     class square that has attributes:
